@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2022" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" scientificx="true" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" format="worksheet" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group hide-input="false" labelreference="L4319" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+with(LinearAlgebra):
+with(Algebraic):
+with(Groebner):
+with(RootFinding):
+with(RandomTools):
+with(linalg):
+with(PolynomialTools):
+with(RegularChains):
+with(ChainTools):
+digits:=1000:
+              </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4317" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):
+</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4315" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DynamicSystems):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4313" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DifferentialAlgebra:-Tools, ToJet, FromJet):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4316" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4306" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4307" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,255,255]">#</Font>                      <Font foreground="[51,51,153]"> #<Font underline="true" italic="true">Construction of random matrix valued functions(rational matrix)</Font>
+</Font>
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4320" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RationalPoly:=proc(degre,cosize)
+local M, N;
+M:=Generate(polynom(integer(range = -2^(cosize) .. 2^(cosize)),s,degree=degre)):
+N:=Generate(polynom(integer(range = -2^(cosize) .. 2^(cosize)),s,degree=degree(M,s))):
+N/M;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4305" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">MatrixConstruct:= proc(size, degree, cosize)
+local i,j:
+return Matrix([seq([seq(RationalPoly(degree,cosize),i=1..size)],j=1..size)]);
+
+end proc:
+</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4321" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#M:=MatrixConstruct(2, 3, 3):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4310" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" foreground="[0,0,128]" layout="Normal"><Font foreground="[0,0,128]">                   #<Font underline="true" italic="true">From a rational matrix to the corresponding bivariate polynomial system</Font>                      </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4304" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">SystemOf:=proc(RationalMat)
+local n0, n1, GCD, H, DH, S, f, N, List,WList, Norminfty,sol,res;
+n0:=numer(simplify(Determinant(Gamma^2*IdentityMatrix(RowDimension(RationalMat))- Transpose(subs([s=-s],RationalMat)).RationalMat))):
+n1:=subs(s=I*omega,n0):
+GCD:=GreatestCommonDivisor(n1, diff(n1, omega)):
+H:=n1/GCD:
+H:= SquareFreePart(H):
+DH:= diff(H, omega):
+S:= [H,DH ]:
+return S;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4303" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#S:=SystemOf(M):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4311" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,255,255]">          </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4324" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,128]">#<Font underline="true" italic="true">computaion of the L^infinity norm of a rational matrix using RUR method that is based on Grobner basis(Isolate) </Font>  </Font><Font foreground="[255,0,255]">   </Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4325" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4323" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">NormInfty:=proc(sys)
+local n0, n1, GCD, H, DH, S, f, N, List,WList, Norminfty,sol,res, L2, max_asym;
+
+H:= sys[1];
+DH:= sys[2];
+if nops(Isolate(lcoeff(H,Gamma), maxroots=1))&lt;&gt;0 then return infinity; end if;
+L2:= sort(Isolate(lcoeff(H,omega),output=interval),key = (proc (x) options operator, arrow; rhs(x)[1] end proc)); 
+max_asym:=rhs(L2[nops(L2)]);
+sol:=sort(Isolate(sys,[Gamma,omega]),key = (proc (x) options operator, arrow; x[1] end proc)):
+if nops(sol)=0 then return Null; else
+return max(rhs(sol[numelems(sol)][1]), max_asym[1]);
+end if
+end proc:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4333" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#NormInfty(S):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4382" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,128]">           #<Font underline="true" italic="true">computaion of the L^infinity norm of a rational matrix using Root Separation method</Font></Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4347" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">SleeveNormComputation:=proc(sys)
+local n0, n1, GCD, H, DH,tx,tomega,tomegaList,ListOfMax,nonzero,M,
+rootiso, D1,d,fp,opp, i,delta,slopee,ShearedSys,TResultant,T,MaxRootIso,j,A,WList,IsoRootIso,rootiso3,L, L2, max_asym;
+
+H:= sys[1];
+DH:= sys[2];
+if nops(Isolate(lcoeff(H,Gamma), maxroots=1))&lt;&gt;0 then return infinity; end if;
+tomega:=resultant(H,DH,omega):
+L2:= sort(Isolate(lcoeff(H,omega),output=interval),key = (proc (x) options operator, arrow; rhs(x)[1] end proc)); 
+max_asym:=rhs(L2[nops(L2)]);
+tx:= resultant(H,DH,Gamma):
+L:=CoefficientList(tx,omega ):
+M:=(sort([seq(abs(L[i]),i=1..numelems(L)-1)])[numelems(L)-1])/abs(L[numelems(L)]) +1:
+
+rootiso:= sort(Isolate(tomega, Gamma, output=interval),key = (proc (x) options operator, arrow; rhs(x)[1] end proc));
+
+if nops(rootiso)=0 then return Null; elif nops(rootiso)=1 then
+D1:= rand()/rand(); else 
+D1:=(sort([seq(  rhs(rootiso[i+1])[1]- rhs(rootiso[i])[2],i=1..numelems(rootiso)-1)])[1])/2: end if;
+d:=degree(H):
+opp:=[op(expand(H))]:
+fp:=0:
+slopee:=0:
+for i from 1 to numelems(opp) do
+if degree(opp[i])=d then fp:=fp+opp[i]  end if  end do:
+delta:=D1: 
+for i from 1 to (d+1) do
+if subs([Gamma=((3*d+i)*delta)/((4*d+2)*M),omega=1],fp) &lt;&gt; 0  then slopee:= ((3*d+i)*delta)/((4*d+2)*M)   end if  end do:
+
+ShearedSys:=subs([Gamma=T-slopee*omega],[H,DH]):
+TResultant:=resultant(op(ShearedSys),omega): 
+rootiso3:=sort(Isolate(TResultant, T , output=interval),key = (proc (x) options operator, arrow; rhs(x)[1] end proc)):
+if nops(rootiso3)=0 then return Null; end if;
+MaxRootIso:=rhs((rootiso3)[numelems(rootiso3)]):
+A:=numelems(rootiso):
+for j from 1 to A do
+if max_asym = rhs(<Font foreground="[128,0,0]">rootiso[1-j+A])</Font> then return convert(max_asym, float); end if;
+if MaxRootIso[1] &gt;= (rhs(rootiso[1-j+A])[1]-D1) and MaxRootIso[2] &lt;=(rhs(rootiso[1-j+A])[2]+D1) then 
+return convert(max(rhs(rootiso[1-j+A]),max_asym),float): 
+end if end do:
+end proc:
+</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4328" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#SleeveNormComputation(S):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4326" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,255,255]">#           </Font><Font foreground="[0,0,128]">#<Font underline="true" italic="true">computaion of the L^infinity norm of a rational matrix using Sturm Habicht Method</Font></Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4341" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,128]">           #<Font underline="true" italic="true">Function C that computes the sign variation in the Principle Sturm Habicht Sequence</Font></Font><Font underline="true" foreground="[255,0,255]" italic="true">
+
+
+</Font><Font foreground="[128,0,0]">V:= proc (list)
+local i,j:
+j:=0;
+for i from 1 to (numelems(list)-1) do
+if (sign(list[i])*sign(list[i+1])=-1) then j:=j+1; end if end do;
+return j;
+end proc:</Font><Font foreground="[51,102,255]">
+
+</Font><Font foreground="[128,0,0]">P:= proc (list) 
+local i,j:
+j:=0;
+for i from 1 to (numelems(list)-1) do
+if (sign(list[i])*sign(list[i+1])=1) then j:=j+1; end if end do;
+return j;
+end proc:</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4335" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4336" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4343" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">C:=proc(list1)
+local k, list ,i,indice,zeroelement,firstindex, nonzeroelement,nomofzeros,zeroindexlist,indexofzeros,s,q,qp,pq,listsofnonzeros,a,b,epsilonlist,epsilonlist1,epsilonis:
+
+list:=list1;
+for i from 1 to nops(list) while (list[1] = 0) do
+<Font foreground="[128,0,0]">list:=[seq(list[i],i=2..nops(list))]; end do; </Font><Font foreground="[204,153,255]">#Removing the 0s at the beginning</Font><Font foreground="[128,0,0]">
+
+</Font>for i from 1 to nops(list) while (list[nops(list)] = 0) do
+<Font foreground="[128,0,0]">list:=[seq(list[i],i=1..nops(list)-1)]; end do; </Font><Font foreground="[204,153,255]">#Removing the 0s at the end</Font>
+
+
+if member(0,list) then 
+
+nonzeroelement:= [seq(`if`(    list[i] = 0 ,NULL,i), i=1..nops(list))];
+zeroelement := [seq(`if`(    list[i] &lt;&gt;0 ,NULL,i), i=1..nops(list))];
+firstindex := [seq(`if`(    zeroelement[i+1] - zeroelement[i]  = 1 ,NULL,i+1), i=1..nops(zeroelement)-1)];
+indexofzeros:=zeroelement[[1,op(firstindex)]];
+
+nomofzeros:= [seq(nonzeroelement[i+1]-nonzeroelement[i]-1, i= 1.. numelems(nonzeroelement)-1)];
+s:= [seq(`if`( nomofzeros[i]=0 ,NULL,i), i=1..nops(nomofzeros))];
+nomofzeros:= nomofzeros[s];
+
+zeroindexlist:= [seq( [indexofzeros[i], nomofzeros[i] ],i=1..nops(nomofzeros) )];
+
+
+q:= [seq( [seq( list[k], k=nomofzeros[i]+indexofzeros[i].. indexofzeros[i+1]-1 )] , i=1.. nops(indexofzeros)-1)];
+qp:= [seq(list[i],i= nomofzeros[nops(indexofzeros)]+indexofzeros[nops(indexofzeros)].. nops(list) )];
+pq:= [seq(list[i],i= 1.. indexofzeros[1]-1 )];
+listsofnonzeros:= [pq,op(q),qp];
+
+<Font foreground="[153,204,0]">#now i have the lists that i need zeroindexlist and listsofnonzeros</Font>
+
+a:=0;
+for i from 1 to nops(listsofnonzeros) do
+a:=a+ (P(listsofnonzeros[i])-V(listsofnonzeros[i]));
+end do:
+
+epsilonlist:= [seq(`if`( type(zeroindexlist[i][2],odd) ,NULL,i), i=1..nops(zeroindexlist))];
+epsilonlist1:=zeroindexlist[epsilonlist];
+
+b:=0;
+for i from 1 to nops(epsilonlist1) do
+b:= b+ (-1)^((epsilonlist1[i][2])/2)*sign(list[epsilonlist1[i][1]-1]/list[epsilonlist1[i][1]+epsilonlist1[i][2]]);
+end do:
+return a+b ;
+
+else return(P(list)-V(list));
+end if:
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4344" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4339" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4337" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">R := PolynomialRing([omega, Gamma]):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4348" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4338" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,255,255]">#<Font size="14" underline="true">         </Font></Font><Font foreground="[0,0,128]">#<Font underline="true">This function is for evaluating G over an exact root of F  </Font></Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4330" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">SSign3:=proc(F,G,inter)
+local H;
+global Gamma:
+<Font foreground="[255,153,204]">#For instance, F becomes sres_0 and G becomes sres_i</Font>
+H:=GreatestCommonDivisor(F, G);
+if <Font foreground="[128,0,0]">subs(Gamma= inter[1],</Font>H<Font foreground="[128,0,0]">)=0 then return 0; else return sign(subs(Gamma= inter[1],G));end if;
+</Font>end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4334" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,255,255]">#<Font size="14" underline="true">          </Font><Font underline="true">                    </Font></Font><Font foreground="[0,0,128]">#<Font underline="true">Sturm-Habicht method</Font></Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4345" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4331" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4346" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">SR_NormInfty:=proc(sys)
+local n0, n1, GCD, H, DH, S,res,src,rootiso,maxroot,nri,i,listofroots,j,a,signe,v,delt,V,P,list4,ii,ind,values_of_sr,<Font foreground="[128,0,0]">iso_with_constraints,signee,iso_with_constraints2,</Font>values_of_sr2, L2, max_asym;
+H:= sys[1];
+DH:= sys[2];
+#return implicitplot(H, omega = -5..5, Gamma = -15..15,gridrefine=3);
+if nops(Isolate(lcoeff(H,Gamma), maxroots=1))&lt;&gt;0 then return infinity; end if;
+L2:= sort(Isolate(lcoeff(H,omega),output=interval),key = (proc (x) options operator, arrow; rhs(x)[1] end proc)); 
+if nops(L2)=0 then max_asym:=0 : else
+max_asym:=rhs(L2[nops(L2)]): end if:
+src := SubresultantChain(H, DH, omega, R):
+<Font foreground="[128,0,0]">res:=factor(simplify(</Font>SubresultantOfIndex(0, src, R)<Font foreground="[128,0,0]">/GreatestCommonDivisor(</Font>SubresultantOfIndex(0, src, R)<Font foreground="[128,0,0]">, diff(</Font>SubresultantOfIndex(0, src, R)<Font foreground="[128,0,0]">, Gamma))</Font>));
+rootiso:=sort(Isolate(res,output=interval),key = (proc (x) options operator, arrow; rhs(x)[1] end proc));
+rootiso:= [seq( rhs(rootiso[i]), i= 1.. nops(rootiso))];
+#return convert(rootiso, float);
+if nops(rootiso)=0 then return Null; end if;
+nri:=numelems(rootiso);
+for ind from 1 to nri do<Font underline="true" bold="false">
+</Font><Font foreground="[128,0,0]">maxroot:= rootiso[1-ind+nri];</Font>
+if max_asym = maxroot then return convert(max_asym, float); end if;
+<Font foreground="[204,153,255]">#we construct the sequence of the leading coefficients in Sturm-Habicht sequence</Font><Font foreground="[51,102,255]">
+</Font><Font foreground="[128,0,0]">a:=[]; 
+for ii from 1 to degree(DH,omega)-1 do 
+a:= [op(a),lcoeff(</Font>SubresultantOfIndex(ii, src, R),omega<Font foreground="[128,0,0]">)]: end do:
+a:=[op(a),lcoeff(DH,omega),lcoeff(H,omega)]:</Font>
+
+<Font foreground="[204,153,255]">#Sign list using the option exactinterval</Font><Font foreground="[0,0,128]">
+</Font><Font foreground="[128,0,0]">signe:=[];
+if maxroot[1]= maxroot[2] then
+signe:= [seq( SSign3(res,a[i],maxroot),i=1..nops(a))];
+else
+iso_with_constraints2:= fgbrs:-rs_isolate_uni_classical(res,exactinterval=maxroot,constraints=a):
+values_of_sr2:= iso_with_constraints2[2][1]:
+for i from 1 to nops (values_of_sr2) do
+if values_of_sr2[i][1]=0 then signe:=[op(signe), 0]: else signe:=[op(signe), sign(values_of_sr2[i][1])]: end if:end do:
+end if;</Font><Font foreground="[0,0,128]">
+</Font><Font foreground="[204,153,255]">#signe is a list of the value(if zero) and the sign (if not zero) of the leading coefficients sequence over the root of the resultant in question</Font><Font foreground="[128,0,0]">
+v:= degree(H,omega)-1;
+delt:=proc(k)
+return ((-1)^(k*(k+1)/2));
+end proc;
+list4:=[];
+for i from 1 to (degree(H,omega)) do
+list4:=[op(list4), signe[i]*delt(v-i)];
+end do;</Font>
+if C(list4)&gt;0 then return(convert(maxroot,float));end if;
+end do;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4370" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#SR_NormInfty(S):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4349" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal" alignment="centred"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4350" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
